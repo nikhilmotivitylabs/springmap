@@ -1,6 +1,9 @@
 package Collage;
 
-public class Student {
+import org.springframework.stereotype.Component;
+
+@Component
+public class Student1 {
 
     private int id;
 
@@ -8,7 +11,7 @@ public class Student {
         return id;
     }
 
-    public Student(int id, String name, String address) {
+    public Student1(int id, String name, String address) {
         this.id = id;
         this.name = name;
         this.address = address;

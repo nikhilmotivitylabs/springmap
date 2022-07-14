@@ -1,2 +1,7 @@
-package com.mobile;public interface Sim {
+package com.mobile;
+
+public interface Sim {
+
+    void calling();
+    void data();
 }
